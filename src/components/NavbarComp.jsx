@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavDropdown, Container} from 'react-bootstrap';
+import { Navbar, Nav, Container} from 'react-bootstrap';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Link,
-  Switch
 } from "react-router-dom";
 import CentrosCuadrados from './CentrosCuadrados';
 import CongruencialLinealCombinado from './CongruencialLinealCombinado';
